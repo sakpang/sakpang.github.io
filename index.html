@@ -1,1 +1,107 @@
-Hello World
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="assets/reveal.css">
+  <link rel="stylesheet" href="assets/reveal-color.css">
+  <style>
+  pre.small{
+    font-size: 0.25em;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        สวัสดี
+      </section>
+      <section>
+        <section>
+          กดลงก็ได้นะ
+        </section>
+        <section>
+          ดูลูกศรข้างล่างขวา
+        </section>
+      </section>
+      <section>
+        <section>
+          แล้วไงต่อ?
+        </section>
+      </section>
+      <section>
+        <section>
+          นี่ไง
+          <pre class='small'>
+gantt
+dateFormat  YYYY-MM-DD
+title SaK & PanG
+
+section เริ่มต้น
+Email เรื่องงาน               :crit, done,    first_email, 2012-05-29,2013-01-18
+Ecart Outing (2 วัน)         :crit, done,    outing     , 2013-01-19, 2013-01-20
+คุยเล่นกัน                     :crit, done,    talk       , 2013-01-21, 2013-02-20
+จีบดูดิ๊ (โดยลูกแพรแนะนำ)        :crit, done,    in_progress, 2013-02-21, 2013-09-08
+ขอเปนแฟน (บน BTS กรุงธนบุรี)   :crit, done,    couple     , 2013-09-08, 2013-09-09
+
+section เป็นแฟนละ
+ทำไรมั่งหว่า?                  :active, done, 2013-09-09, 2016-03-17
+ดูหนัง                        :crit, done, 2013-09-09, 2016-03-17
+กินๆๆๆๆๆๆๆๆๆ                 :crit, done, 2013-09-09, 2016-03-17
+ไปตจวบ้างเล็กน้อย              :crit, done, 2013-09-09, 2016-03-17
+
+section แล้วต่อจากนี้ล่ะ?
+(2016-03-18)                :active, done, 2016-03-18
+922 วัน นานเหมือนกันเนอะ       :active, done, 2016-03-18
+สรุปคือ?                      :active, done, 2016-03-18, 2017-01-01
+​++                          :active, done, 2017-01-01
+          </pre>
+          งงก็กดลง
+        </section>
+        <section>
+          <img src="assets/timeline.png" alt="">
+        </section>
+      </section>
+      <section>
+        <section>
+          922 วัน ก็ประมาณ 2.5 ปีได้เนอะ
+        </section>
+      </section>
+      <section>
+
+      </section>
+    </div>
+  </div>
+  <script src="assets/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      slideNumber: false,
+      history: false,
+      keyboard: true,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      fragments: true,
+      embedded: false,
+      help: true,
+      showNotes: false,
+      autoSlide: 0,
+      autoSlideStoppable: true,
+      mouseWheel: false,
+      hideAddressBar: true,
+      previewLinks: false,
+      transition: 'default',
+      transitionSpeed: 'default',
+      backgroundTransition: 'default',
+      viewDistance: 3
+    });
+  </script>
+</body>
+
+</html>
